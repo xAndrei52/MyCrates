@@ -1,4 +1,4 @@
-name: MysteryCrate
+name: SPTM Crates
 main: JackMD\MysteryCrate\Main
 api: [3.9.0]
 version: 9.1.1
