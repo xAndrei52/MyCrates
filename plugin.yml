@@ -2,7 +2,7 @@ name: SPTM Crates
 main: JackMD\MysteryCrate\Main
 api: [3.9.0]
 version: 9.1.1
-author: JackMD
+author: xAndrei52
 authors: [DaPigGuy]
 load: POSTWORLD
 description: Add unlimited number of MysteryCrates with full customization.
