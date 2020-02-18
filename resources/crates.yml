@@ -54,16 +54,16 @@ crates:
     block: "173:0"
     broadcast:
       enable: true
-      command: "§8[§dSPTM§8] §7 \"%PLAYER%\" is opening Common Crate at /crates"
+      command: "say §8[§bGXPE§8] §7 \"%PLAYER%\" is opening Common Crate at /crates"
   uncommon:
     drops:
-      - name: "Money Drop"
+      - name: "Money"
         id: 339
         meta: 50
         amount: 1
         commands:
-          - "givemoney \"%PLAYER%\" 2000"
-          - "§8[§dSPTM§8] §d \"%PLAYER%\" §7won $2000."
+          - "givemoney \"%PLAYER%\" 10000"
+          - "say §b \"%PLAYER%\" §7won $10,000."
       - id: 265
         meta: 0
         amount: 10
@@ -77,14 +77,14 @@ crates:
         meta: 0
         amount: 1
 commands:
-          - "givemoney \"%PLAYER%\" 2000"
-          - "say §8[§dSPTM§8] §d \"%PLAYER%\" §7won $2000."
+          - "givemoney \"%PLAYER%\" 10000"
+          - "say §b \"%PLAYER%\" §7won $10,000."
 
     block: "42:0"
     broadcast:
       enable: true
-      command: "say §8[§dSPTM§8] \"%PLAYER%\" opens a §dUncommon §7crate!!"
-  vote:
+      command: "say §b \"%PLAYER%\" opens a §7Uncommon §7crate!!"
+  Voter:
     drops:
       - id: 265
         meta: 0
@@ -106,15 +106,15 @@ commands:
         meta: 50
         amount: 1
         commands:
-          - "givemoney \"%PLAYER%\" 5000"
-          - "§8[§dSPTM§8] §d \"%PLAYER%\" §7won $5000."
+          - "givemoney \"%PLAYER%\" 15000"
+          - "say §b \"%PLAYER%\" §7won $15,000."
 
       
     block: "41:0"
     broadcast:
       enable: true
-      command: "say §8[§dSPTM§8] §7 \"%PLAYER%\" is opening §dVote §7crate!!"
-  mythic:
+      command: "say  §b \"%PLAYER%\" is opening §7Voter §7crate!!"
+  Furious:
     drops:
       - id: 264
         meta: 0
@@ -133,15 +133,15 @@ commands:
         meta: 50
         amount: 1
         commands:
-          - "givemoney \"%PLAYER%\" 10000"
-          - "§8[§dSPTM§8] §d \"%PLAYER%\" §7won $10000."
+          - "givemoney \"%PLAYER%\" 20000"
+          - "say §b \"%PLAYER%\" §7won $20,000."
  
       
     block: "57:0"
     broadcast:
       enable: true
-      command: "say §8[§dSPTM§8] §7\"%PLAYER%\" is opening §dMythic §7crate!!"
-  legendary:
+      command: "say §b\"%PLAYER%\" is opening §7Furious §7crate!!"
+  Galaxy:
     drops:
       - id: 322
         meta: 0
@@ -163,12 +163,14 @@ commands:
         meta: 50
         amount: 1
         commands:
-          - "givemoney \"%PLAYER%\" 20000"
-          - "§8[§dSPTM§8] §d \"%PLAYER%\" §7won $20000."
+          - "givemoney \"%PLAYER%\" 40000"
+          - " §b \"%PLAYER%\" §7won $40,000."
+
+
     block: "133:0"
     broadcast:
       enable: true
-      command: "say §8[§dSPTM§8] §7\"%PLAYER%\" is opening §dLegendary §l§7CRATE!!"
+      command: "say §b\"%PLAYER%\" is opening §bGalaxy §l§7CRATE!!"
 
 # ---------------------------------------------------------
 # YOU CAN ADD MORE CRATES BELOW. JUST FOLLOW THE PATTERN.
